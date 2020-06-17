@@ -1760,7 +1760,7 @@ h6 {
 		font-size: 28px
 	}
 	#header #logo img {
-		max-height: 40px
+		max-height:500px
 	}
 }
 .nav-menu,
@@ -2061,33 +2061,49 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-content {
 	text-align: left
 }
-.banner-content h1 {
-	font-size: 40px;
+.banner-content h2{
+	font-size: 30px;
 	font-weight: 700;
 	line-height: 1em;
 	margin-top: 10px;
 	color: #fff
 }
 @media (max-width: 991.98px) {
-	.banner-content h1 {
+	.banner-content h2 {
 		font-size: 36px
 	}
 }
 @media (max-width: 991.98px) {
-	.banner-content h1 br {
+	.banner-content h2 br {
 		display: none
 	}
 }
 @media (max-width: 1199.98px) {
-	.banner-content h1 {
-		font-size: 45px
+	.banner-content h2 {
+		font-size: 40px
 	}
 }
 @media (max-width: 480px) {
-	.banner-content h1 {
-		font-size: 32px
+	.banner-content h2 {
+		font-size: 25px
 	}
 }
+@media (max-width: 480px) {
+	.single-footer-widget ul li a{
+		font-size: 12px
+	}
+}
+@media (max-width: 480px) {
+	.single-footer-widget ul li {
+		font-size: 12px
+	}
+}
+@media (max-width: 480px) {
+	.single-footer-widget{
+		font-size: 12px
+	}
+}
+
 .banner-content .primary-btn {
 	background-color: #f7631b;
 	color: #fff;

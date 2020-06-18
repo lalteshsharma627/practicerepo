@@ -1713,8 +1713,8 @@ h6 {
 	padding: 9px 26px
 }
 .main-menu {
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 	border-bottom: 1px solid #39353e
 }
 #header {
@@ -1855,9 +1855,9 @@ h6 {
 }
 #mobile-nav-toggle {
 	position: fixed;
-	right: 15px;
+	right: 13px;
 	z-index: 999;
-	top: 62px;
+	top: 48px;
 	border: 0;
 	background: none;
 	font-size: 24px;
